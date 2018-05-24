@@ -231,7 +231,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = alvarofernandezortiz;
+				ORGANIZATIONNAME = jorge;
 				TargetAttributes = {
 					E991840120A88E0A007AEB08 = {
 						CreatedOnToolsVersion = 9.3;
@@ -517,6 +517,7 @@
 			baseConfigurationReference = 3DE42860EA18C256F106BCBC /* Pods-Fluctuacion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T36543E3UX;
 				INFOPLIST_FILE = Fluctuacion/Info.plist;
@@ -536,6 +537,7 @@
 			baseConfigurationReference = DEE60EB3F847946655C34A5E /* Pods-Fluctuacion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T36543E3UX;
 				INFOPLIST_FILE = Fluctuacion/Info.plist;
