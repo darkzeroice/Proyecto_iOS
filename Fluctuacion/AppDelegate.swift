@@ -2,20 +2,27 @@
 //  AppDelegate.swift
 //  Fluctuacion
 //
-//  Created by proyecto on 13/5/18.
-//  Copyright © 2018 alvarofernandezortiz. All rights reserved.
+//  Created by jorge on 13/5/18.
+//  Copyright © 2018 jorge. All rights reserved.
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        // Set up the style and color of the common UI elements
+        customizeUIStyle()
+
         // Override point for customization after application launch.
+        FirebaseApp.configure()
         return true
     }
 
@@ -42,5 +49,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+extension AppDelegate {
+    func customizeUIStyle() {
+        
+        // Customize Navigation bar items
+        UIBarButtonItem.appearance(whenContainedInInstancesOf: [UINavigationBar.self]).setTitleTextAttributes([NSAttributedStringKey.font: UIFont(name: "Avenir", size: 16)!, NSAttributedStringKey.foregroundColor: UIColor.white], for: UIControlState.normal)
+        
+        //Modificamos la barra de
+        //Fondo del Navigation Bar
+        UINavigationBar.appearance().barTintColor = UIColor(red: 20/255, green: 20/255, blue: 255/255, alpha: 1)
+        //Color del Título del Navigation Bar
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        //Color del texto del botón atrás
+        UINavigationBar.appearance().tintColor = UIColor.white
+        
+        //Esto deberia cambiar el color del status bar
+        UIApplication.shared.statusBarStyle = .lightContent
+        
+    }
 }
 

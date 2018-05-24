@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Fluctuacion
 //
-//  Created by proyecto on 13/5/18.
-//  Copyright © 2018 alvarofernandezortiz. All rights reserved.
+//  Created by jorge on 13/5/18.
+//  Copyright © 2018 jorge. All rights reserved.
 //
 
 import UIKit

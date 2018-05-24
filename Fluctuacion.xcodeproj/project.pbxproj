@@ -7,14 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CA72C86E2A8837DBA3F3DD7 /* Pods_Fluctuacion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E09C63B05CBBA85A8EAABE8 /* Pods_Fluctuacion.framework */; };
+		CF23D4A020AAF59B00CD502C /* MiCompraTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23D49F20AAF59B00CD502C /* MiCompraTableViewController.swift */; };
+		CF23D4A220AAF90700CD502C /* SelectProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23D4A120AAF90700CD502C /* SelectProductoViewController.swift */; };
+		CF23D4A720AB78DF00CD502C /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23D4A620AB78DE00CD502C /* ResetPasswordViewController.swift */; };
+		CF23D4A920AB78F700CD502C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23D4A820AB78F700CD502C /* WelcomeViewController.swift */; };
+		CF23D4AB20AB790200CD502C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23D4AA20AB790200CD502C /* SignUpViewController.swift */; };
+		CF23D4AD20AB790C00CD502C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23D4AC20AB790C00CD502C /* LoginViewController.swift */; };
+		CF5C33CB20AE1D76000314C2 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C33CA20AE1D76000314C2 /* ChartsViewController.swift */; };
+		CF9B44F820B0D35A001D8052 /* PreChartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9B44F720B0D35A001D8052 /* PreChartTableViewController.swift */; };
+		CFC7DDB720AE301A00E4155F /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC7DDB620AE301A00E4155F /* BarChartViewController.swift */; };
 		E991840620A88E0A007AEB08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E991840520A88E0A007AEB08 /* AppDelegate.swift */; };
 		E991840820A88E0A007AEB08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E991840720A88E0A007AEB08 /* ViewController.swift */; };
 		E991840B20A88E0A007AEB08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E991840920A88E0A007AEB08 /* Main.storyboard */; };
 		E991840D20A88E0B007AEB08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E991840C20A88E0B007AEB08 /* Assets.xcassets */; };
 		E991841020A88E0B007AEB08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E991840E20A88E0B007AEB08 /* LaunchScreen.storyboard */; };
+		E991841820A88F6E007AEB08 /* ProductosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E991841720A88F6E007AEB08 /* ProductosTableViewController.swift */; };
+		E991841A20A88FFF007AEB08 /* MenuPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E991841920A88FFF007AEB08 /* MenuPrincipalViewController.swift */; };
+		E9AF8FB820A89B5200D8B002 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9AF8FB720A89B5200D8B002 /* GoogleService-Info.plist */; };
+		E9AF8FBB20A89BB800D8B002 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF8FBA20A89BB800D8B002 /* Producto.swift */; };
+		E9CBF28320A8A358009280B1 /* ProductoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBF28220A8A358009280B1 /* ProductoTableViewCell.swift */; };
+		E9CBF28920A8A8B1009280B1 /* AddProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CBF28820A8A8B1009280B1 /* AddProductTableViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CFC7DDB220AE2E9400E4155F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC7DDAD20AE2E9400E4155F /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		CFC7DDB420AE2E9400E4155F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC7DDAD20AE2E9400E4155F /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3DE42860EA18C256F106BCBC /* Pods-Fluctuacion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fluctuacion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fluctuacion/Pods-Fluctuacion.debug.xcconfig"; sourceTree = "<group>"; };
+		3E09C63B05CBBA85A8EAABE8 /* Pods_Fluctuacion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fluctuacion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF23D49F20AAF59B00CD502C /* MiCompraTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCompraTableViewController.swift; sourceTree = "<group>"; };
+		CF23D4A120AAF90700CD502C /* SelectProductoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProductoViewController.swift; sourceTree = "<group>"; };
+		CF23D4A620AB78DE00CD502C /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResetPasswordViewController.swift; path = Fluctuacion/ResetPasswordViewController.swift; sourceTree = SOURCE_ROOT; };
+		CF23D4A820AB78F700CD502C /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = Fluctuacion/WelcomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		CF23D4AA20AB790200CD502C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = Fluctuacion/SignUpViewController.swift; sourceTree = SOURCE_ROOT; };
+		CF23D4AC20AB790C00CD502C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Fluctuacion/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		CF5C33CA20AE1D76000314C2 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		CF9B44F720B0D35A001D8052 /* PreChartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreChartTableViewController.swift; sourceTree = "<group>"; };
+		CFC7DDAD20AE2E9400E4155F /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Charts.xcodeproj; sourceTree = "<group>"; };
+		CFC7DDB620AE301A00E4155F /* BarChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
+		DEE60EB3F847946655C34A5E /* Pods-Fluctuacion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fluctuacion.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fluctuacion/Pods-Fluctuacion.release.xcconfig"; sourceTree = "<group>"; };
 		E991840220A88E0A007AEB08 /* Fluctuacion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fluctuacion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E991840520A88E0A007AEB08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E991840720A88E0A007AEB08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +68,12 @@
 		E991840C20A88E0B007AEB08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E991840F20A88E0B007AEB08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E991841120A88E0B007AEB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E991841720A88F6E007AEB08 /* ProductosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosTableViewController.swift; sourceTree = "<group>"; };
+		E991841920A88FFF007AEB08 /* MenuPrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrincipalViewController.swift; sourceTree = "<group>"; };
+		E9AF8FB720A89B5200D8B002 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E9AF8FBA20A89BB800D8B002 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		E9CBF28220A8A358009280B1 /* ProductoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoTableViewCell.swift; sourceTree = "<group>"; };
+		E9CBF28820A8A8B1009280B1 /* AddProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +81,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA72C86E2A8837DBA3F3DD7 /* Pods_Fluctuacion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68DB62B70C15BDCC39C5E5A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E09C63B05CBBA85A8EAABE8 /* Pods_Fluctuacion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B0818BB84965229E1E980D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DE42860EA18C256F106BCBC /* Pods-Fluctuacion.debug.xcconfig */,
+				DEE60EB3F847946655C34A5E /* Pods-Fluctuacion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF23D49E20AAF57500CD502C /* compra */ = {
+			isa = PBXGroup;
+			children = (
+				CF23D49F20AAF59B00CD502C /* MiCompraTableViewController.swift */,
+				CF23D4A120AAF90700CD502C /* SelectProductoViewController.swift */,
+			);
+			path = compra;
+			sourceTree = "<group>";
+		};
+		CF23D4A320AB788400CD502C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CF23D4AC20AB790C00CD502C /* LoginViewController.swift */,
+				CF23D4AA20AB790200CD502C /* SignUpViewController.swift */,
+				CF23D4A820AB78F700CD502C /* WelcomeViewController.swift */,
+				CF23D4A620AB78DE00CD502C /* ResetPasswordViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CF5C33C920AE1D3A000314C2 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C33CA20AE1D76000314C2 /* ChartsViewController.swift */,
+				CFC7DDB620AE301A00E4155F /* BarChartViewController.swift */,
+				CF9B44F720B0D35A001D8052 /* PreChartTableViewController.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		CFC7DDAE20AE2E9400E4155F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFC7DDB320AE2E9400E4155F /* Charts.framework */,
+				CFC7DDB520AE2E9400E4155F /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E99183F920A88E0A007AEB08 = {
 			isa = PBXGroup;
 			children = (
+				CFC7DDAD20AE2E9400E4155F /* Charts.xcodeproj */,
 				E991840420A88E0A007AEB08 /* Fluctuacion */,
 				E991840320A88E0A007AEB08 /* Products */,
+				6B0818BB84965229E1E980D5 /* Pods */,
+				68DB62B70C15BDCC39C5E5A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +166,39 @@
 		E991840420A88E0A007AEB08 /* Fluctuacion */ = {
 			isa = PBXGroup;
 			children = (
+				CF5C33C920AE1D3A000314C2 /* Charts */,
+				CF23D4A320AB788400CD502C /* Login */,
+				E9AF8FB920A89BA700D8B002 /* modelo */,
+				E9AF8FB720A89B5200D8B002 /* GoogleService-Info.plist */,
 				E991840520A88E0A007AEB08 /* AppDelegate.swift */,
 				E991840720A88E0A007AEB08 /* ViewController.swift */,
 				E991840920A88E0A007AEB08 /* Main.storyboard */,
 				E991840C20A88E0B007AEB08 /* Assets.xcassets */,
 				E991840E20A88E0B007AEB08 /* LaunchScreen.storyboard */,
 				E991841120A88E0B007AEB08 /* Info.plist */,
+				E991841920A88FFF007AEB08 /* MenuPrincipalViewController.swift */,
+				CF23D49E20AAF57500CD502C /* compra */,
+				E991841D20A891F3007AEB08 /* Productos */,
 			);
 			path = Fluctuacion;
+			sourceTree = "<group>";
+		};
+		E991841D20A891F3007AEB08 /* Productos */ = {
+			isa = PBXGroup;
+			children = (
+				E991841720A88F6E007AEB08 /* ProductosTableViewController.swift */,
+				E9CBF28220A8A358009280B1 /* ProductoTableViewCell.swift */,
+				E9CBF28820A8A8B1009280B1 /* AddProductTableViewController.swift */,
+			);
+			path = Productos;
+			sourceTree = "<group>";
+		};
+		E9AF8FB920A89BA700D8B002 /* modelo */ = {
+			isa = PBXGroup;
+			children = (
+				E9AF8FBA20A89BB800D8B002 /* Producto.swift */,
+			);
+			path = modelo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E991841420A88E0B007AEB08 /* Build configuration list for PBXNativeTarget "Fluctuacion" */;
 			buildPhases = (
+				CEEFEEE9AB3099A6890D9BC2 /* [CP] Check Pods Manifest.lock */,
 				E99183FE20A88E0A007AEB08 /* Sources */,
 				E99183FF20A88E0A007AEB08 /* Frameworks */,
 				E991840020A88E0A007AEB08 /* Resources */,
+				FBEEDA5E0B2158538A8928CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -110,6 +249,12 @@
 			mainGroup = E99183F920A88E0A007AEB08;
 			productRefGroup = E991840320A88E0A007AEB08 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CFC7DDAE20AE2E9400E4155F /* Products */;
+					ProjectRef = CFC7DDAD20AE2E9400E4155F /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E991840120A88E0A007AEB08 /* Fluctuacion */,
@@ -117,12 +262,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		CFC7DDB320AE2E9400E4155F /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = CFC7DDB220AE2E9400E4155F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CFC7DDB520AE2E9400E4155F /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = CFC7DDB420AE2E9400E4155F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		E991840020A88E0A007AEB08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E991841020A88E0B007AEB08 /* LaunchScreen.storyboard in Resources */,
+				E9AF8FB820A89B5200D8B002 /* GoogleService-Info.plist in Resources */,
 				E991840D20A88E0B007AEB08 /* Assets.xcassets in Resources */,
 				E991840B20A88E0A007AEB08 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +293,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CEEFEEE9AB3099A6890D9BC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fluctuacion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBEEDA5E0B2158538A8928CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fluctuacion/Pods-Fluctuacion-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fluctuacion/Pods-Fluctuacion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E99183FE20A88E0A007AEB08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF23D4AD20AB790C00CD502C /* LoginViewController.swift in Sources */,
+				CF23D4A220AAF90700CD502C /* SelectProductoViewController.swift in Sources */,
+				E991841820A88F6E007AEB08 /* ProductosTableViewController.swift in Sources */,
 				E991840820A88E0A007AEB08 /* ViewController.swift in Sources */,
+				CF23D4A720AB78DF00CD502C /* ResetPasswordViewController.swift in Sources */,
+				CF23D4A020AAF59B00CD502C /* MiCompraTableViewController.swift in Sources */,
+				CF5C33CB20AE1D76000314C2 /* ChartsViewController.swift in Sources */,
+				E9AF8FBB20A89BB800D8B002 /* Producto.swift in Sources */,
+				E991841A20A88FFF007AEB08 /* MenuPrincipalViewController.swift in Sources */,
 				E991840620A88E0A007AEB08 /* AppDelegate.swift in Sources */,
+				CF23D4A920AB78F700CD502C /* WelcomeViewController.swift in Sources */,
+				E9CBF28320A8A358009280B1 /* ProductoTableViewCell.swift in Sources */,
+				CFC7DDB720AE301A00E4155F /* BarChartViewController.swift in Sources */,
+				CF23D4AB20AB790200CD502C /* SignUpViewController.swift in Sources */,
+				CF9B44F820B0D35A001D8052 /* PreChartTableViewController.swift in Sources */,
+				E9CBF28920A8A8B1009280B1 /* AddProductTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,15 +514,17 @@
 		};
 		E991841520A88E0B007AEB08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE42860EA18C256F106BCBC /* Pods-Fluctuacion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T36543E3UX;
 				INFOPLIST_FILE = Fluctuacion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jorge.Fluctuacion;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firebaseapp.fluctuacion-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,15 +533,17 @@
 		};
 		E991841620A88E0B007AEB08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE60EB3F847946655C34A5E /* Pods-Fluctuacion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T36543E3UX;
 				INFOPLIST_FILE = Fluctuacion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jorge.Fluctuacion;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firebaseapp.fluctuacion-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
